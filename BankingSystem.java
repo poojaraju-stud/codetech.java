@@ -16,7 +16,7 @@ public class BankingSystem {
         System.out.print("Enter Account Number: ");
         accountNumber = sc.nextInt();
 
-        System.out.print("Enter Initial Deposit: ₹");
+        System.out.print("Enter Initial Deposit:Rs. ");
         balance = sc.nextDouble();
 
         System.out.println("\nAccount Created Successfully!");
@@ -24,12 +24,12 @@ public class BankingSystem {
 
     public static void deposit(Scanner sc) {
 
-        System.out.print("Enter Amount to Deposit: ₹");
+        System.out.print("Enter Amount to Deposit:Rs. ");
         double amount = sc.nextDouble();
 
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposit Successful!");
+            System.out.println("Deposit Successful!!!");
         } else {
             System.out.println("Invalid Amount!");
         }
@@ -37,7 +37,7 @@ public class BankingSystem {
 
     public static void withdraw(Scanner sc) {
 
-        System.out.print("Enter Amount to Withdraw: ₹");
+        System.out.print("Enter Amount to Withdraw: ");
         double amount = sc.nextDouble();
 
         if (amount > 0 && amount <= balance) {
@@ -53,7 +53,7 @@ public class BankingSystem {
         System.out.println("\n===== ACCOUNT DETAILS =====");
         System.out.println("Holder Name : " + accountHolder);
         System.out.println("Account No  : " + accountNumber);
-        System.out.println("Balance     : ₹" + balance);
+        System.out.println("Balance     : Rs." + balance);
     }
 
     public static void main(String[] args) {
