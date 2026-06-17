@@ -1,4 +1,9 @@
-# Internship Java Projects
+# Internship JavaProgramming
+
+## Intern Details
+- Intern ID: CTTS175
+
+### Internship Projects
 
 This folder contains:
 1. Banking System
@@ -26,11 +31,11 @@ java BankingSystem
 javac StudentManagementSystem.java
 java StudentManagementSystem
 
-## Library Catalog Tool
+### Library Catalog Tool
 javac LibraryCatalogTool.java
 java LibraryCatalogTool
  
-## Scientific Calculator
+### Scientific Calculator
 javac ScientificCalculator.java
 java ScientificCalculator
 
