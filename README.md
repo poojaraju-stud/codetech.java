@@ -14,6 +14,8 @@ This repository contains Java console-based projects created for internship task
 1. Banking System
 2. Student Management System
 3. Library Catalog Tool
+4. Scientific Calculator
+
 ## How to Run
 
 ### Banking System
@@ -27,6 +29,10 @@ java StudentManagementSystem
 ## Library Catalog Tool
 javac LibraryCatalogTool.java
 java LibraryCatalogTool
+ 
+## Scientific Calculator
+javac ScientificCalculator.java
+java ScientificCalculator
 
 ## Tools Used
 - Java
