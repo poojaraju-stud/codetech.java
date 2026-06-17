@@ -1,29 +1,7 @@
-##Banking System Console Application
+# Internship Java Projects
 
-# Internship Project
+This folder contains:
+1. Banking System
+2. Student Management System
 
-Intern Name: Pooja Raju
-Intern ID:CTTS175
-
-## Description
-
-This is a Java console-based Banking System project developed for internship submission.
-
-### Features
-
-* Create Account
-* Deposit Money
-* Withdraw Money
-* Check Balance
-
-#### Technologies Used
-
-* Java
-* VS Code
-* GitHub
-
-### Run Commands
-
-javac BankingSystem.java
-
-java BankingSystem
+Each project has its own README file.
